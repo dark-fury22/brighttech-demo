@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BrightTech Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+  	<nav>
+  		<ul class="navbar">
+  			<li>Home</li>
+  			<li>Courses</li>
+  			<li>Contact</li>
+  			<li>About</li>
+  		</ul>
+  	</nav>
+    <h1>Welcome to BrightTech Demo</h1>
+    <p>Learning Digital Skills Made Simple</p>
+  </header>
+
+  <section>
+    <h2>About This Demo</h2>
+    <p>This is a simple website built using HTML, CSS and JavaScript.</p>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="messageArea"></p>
+  </section>
+  
+  <section>
+  <h2>Contact Us</h2>
+
+  <form id="contactForm">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" required></textarea>
+    </div>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="formResponse"></p>
+</section>
+
+  <footer>
+    <p>© 2026 BrightTech Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
